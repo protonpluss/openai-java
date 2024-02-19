@@ -23,7 +23,7 @@ task runExampleTwo(type: JavaExec) {
 }
 
 task runExampleThree(type: JavaExec) {
-    mainClass.set('example.OpenAiApiFunctionsWIthStreamExample')
+    mainClass.set('example.OpenAiApiFunctionsWithStreamExample')
     classpath = sourceSets.main.runtimeClasspath
     args = []
     standardInput = System.in
